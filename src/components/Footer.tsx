@@ -1,4 +1,4 @@
-import { Recycle } from "lucide-react";
+import { Package, Phone, Mail, MapPin } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -7,28 +7,38 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-10">
           <div>
             <a href="#" className="flex items-center gap-2 font-display text-lg font-bold text-foreground mb-3">
-              <Recycle className="w-6 h-6 text-primary" />
-              EcoPack
+              <Package className="w-6 h-6 text-primary" />
+              Ductile Polymers
             </a>
-            <p className="text-sm text-muted-foreground">Sustainable packaging solutions for a better future.</p>
+            <p className="text-sm text-muted-foreground mb-3">Industrial packaging manufacturer based in Panipat, Haryana.</p>
+            <div className="space-y-1 text-sm text-muted-foreground">
+              <p className="flex items-center gap-1"><Phone className="w-3 h-3 text-primary" /> +91 8950702695</p>
+              <p className="flex items-center gap-1"><Mail className="w-3 h-3 text-primary" /> CAMUKULGOEL@GMAIL.COM</p>
+            </div>
           </div>
           {[
-            { title: "Products", links: ["Poly Mailers", "Compostable Boxes", "Reusable Pouches", "Branded Packaging"] },
-            { title: "Company", links: ["About Us", "Sustainability", "Careers", "Blog"] },
-            { title: "Support", links: ["Contact", "FAQ", "Shipping Info", "Returns"] },
+            { title: "Products", links: ["LDPE Bags", "Stretch Film", "BOPP Bags", "Mailer Bags", "Recycled Polybags"] },
+            { title: "Solutions", links: ["Poly Bags & Mailers", "Films & Wraps", "Industrial Packaging", "Accessories"] },
+            { title: "Company", links: ["About Us", "Contact", "Get Quote"] },
           ].map((col) => (
             <div key={col.title}>
               <h4 className="font-display font-semibold text-foreground mb-3">{col.title}</h4>
               <div className="space-y-2">
                 {col.links.map((link) => (
-                  <a key={link} href="#" className="block text-sm text-muted-foreground hover:text-foreground transition-colors">{link}</a>
+                  <a key={link} href="#" className="block text-sm text-muted-foreground hover:text-primary transition-colors">{link}</a>
                 ))}
               </div>
             </div>
           ))}
         </div>
-        <div className="border-t border-border/30 pt-6 text-center text-sm text-muted-foreground">
-          © 2024 EcoPack. All rights reserved.
+        <div className="border-t border-border/30 pt-6">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
+            <p>© 2024 Ductile Polymers Pvt. Ltd. All rights reserved.</p>
+            <div className="flex items-start gap-1">
+              <MapPin className="w-3 h-3 text-primary mt-0.5 shrink-0" />
+              <span>Plot no.1, Sector 29, Near Oxygen Plant, Opposite Satsang Bhawan Teachers Colony, Panipat, Haryana — 132103</span>
+            </div>
+          </div>
         </div>
       </div>
     </footer>

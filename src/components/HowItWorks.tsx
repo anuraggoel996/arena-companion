@@ -1,8 +1,8 @@
 const steps = [
-  { num: "01", title: "Tell Us Your Needs", desc: "Share your product dimensions, quantities, and branding requirements. Our team will help you find the perfect sustainable solution." },
-  { num: "02", title: "Custom Design", desc: "Our design team creates mockups featuring your brand. Choose materials, colors, and finishes that align with your sustainability goals." },
-  { num: "03", title: "Production & Delivery", desc: "We manufacture your packaging using renewable energy and ship carbon-neutral. Typical lead time is 2-3 weeks." },
-  { num: "04", title: "Delight Customers", desc: "Watch your customers fall in love with your eco-friendly unboxing experience. Track your environmental impact in real-time." },
+  { num: "01", title: "Share Requirements", desc: "Tell us your product dimensions, quantities, material preferences, and any custom printing or branding needs." },
+  { num: "02", title: "Get Custom Quote", desc: "Our team provides competitive pricing based on your specifications. No hidden costs, transparent pricing." },
+  { num: "03", title: "Manufacturing", desc: "We manufacture your packaging with quality control at every stage. Typical lead time varies by order size." },
+  { num: "04", title: "Delivery", desc: "Pan-India delivery with reliable logistics. Bulk orders dispatched directly from our Panipat facility." },
 ];
 
 const HowItWorks = () => {
@@ -11,8 +11,8 @@ const HowItWorks = () => {
       <div className="container">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <p className="text-sm font-semibold text-primary mb-3">How It Works</p>
-          <h2 className="font-display text-4xl font-bold text-foreground mb-4">From concept to doorstep in 4 steps</h2>
-          <p className="text-muted-foreground">Getting started with sustainable packaging is easier than you think.</p>
+          <h2 className="font-display text-4xl font-bold text-foreground mb-4">From enquiry to delivery in 4 steps</h2>
+          <p className="text-muted-foreground">Getting custom packaging from Ductile Polymers is simple and efficient.</p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
