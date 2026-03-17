@@ -1,7 +1,8 @@
 const keywords = [
-  "Stretch Film", "Poly Bags", "BOPP Bags", "Mailer Bags", "Recycled Polybags",
-  "Woven Fabric", "Tarpaulin", "Air Bubble Roll", "Adhesive Tape", "Silica Gel",
-  "LDPE Bags", "Shrink Wrap", "Pallet Wrap", "Garbage Bags", "Plastic Strap"
+  "Stretch Film", "Poly Bags", "BOPP Bags", "Courier Bags", "Compostable Bags",
+  "Woven Sacks", "Air Bubble Film", "Adhesive Tape", "Silica Gel", "Cable Ties",
+  "LDPE Bags", "Shrink Wrap", "Pallet Wrap", "Garbage Bags", "Box Strapping",
+  "TPE Granules", "TPR Granules", "Leno Bags", "Security Bags", "Zipper Pouch"
 ];
 
 const BrandMarquee = () => {

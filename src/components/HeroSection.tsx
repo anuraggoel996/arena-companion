@@ -2,7 +2,7 @@ import { ArrowRight, Factory, Award, Truck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const stats = [
-  { value: "15+", label: "Product Range" },
+  { value: "47+", label: "Product Range" },
   { value: "100%", label: "Customizable" },
   { value: "Pan India", label: "Delivery" },
 ];
@@ -27,7 +27,7 @@ const HeroSection = () => {
           </h1>
 
           <p className="text-lg text-muted-foreground max-w-lg">
-            Ductile Polymers Pvt. Ltd. — Leading manufacturer of stretch films, poly bags, BOPP bags, mailer bags, tarpaulin, and industrial packaging materials in Panipat, Haryana.
+            High Land Overseas Pvt. Ltd. — Leading manufacturer & exporter of stretch films, poly bags, BOPP bags, mailer bags, TPE/TPR granules, and industrial packaging materials in Panipat, Haryana.
           </p>
 
           <div className="flex flex-wrap gap-4">

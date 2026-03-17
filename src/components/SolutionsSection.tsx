@@ -1,12 +1,12 @@
 import { Package, Box, Film, Shield, ShoppingBag, Truck } from "lucide-react";
 
 const solutions = [
-  { icon: Package, title: "Poly Bags & Mailers", desc: "LDPE bags, poly mailers, recycled polybags for shipping and retail. Custom sizes, printing, and eco-friendly options available." },
-  { icon: Film, title: "Stretch & Shrink Films", desc: "Machine and manual grade stretch films, pallet wrap, and shrink wrap. 29-60 micron thickness for secure industrial packaging." },
-  { icon: Box, title: "BOPP & Woven Bags", desc: "Premium BOPP bags for garments and textiles. HDPE/PP woven fabric for heavy-duty industrial shipping and cement packaging." },
-  { icon: Shield, title: "Protective Packaging", desc: "Air bubble rolls, tarpaulin sheets, and honeycomb wraps. Complete protection for fragile and valuable items during transit." },
-  { icon: ShoppingBag, title: "Packaging Accessories", desc: "Plastic straps, adhesive tapes, silica gel desiccants, iron clips, and plastic sutli. Everything for complete packaging solutions." },
-  { icon: Truck, title: "Custom Manufacturing", desc: "OEM packaging supplier with custom sizes, colours, and printing. Bulk orders with pan-India delivery and global export capability." },
+  { icon: Package, title: "Poly Bags & Mailers", desc: "LDPE bags, courier bags, compostable bags, security bags, recycled polybags, and GRS certified bags for shipping and retail." },
+  { icon: Film, title: "Films & Wraps", desc: "Machine stretch film, shrink film, BOPP film, blown film, PVC shrink, agriculture film, and furniture packaging film." },
+  { icon: Box, title: "Industrial Packaging", desc: "BOPP woven bags, woven sacks for cement, construction covers, cable drum packaging, and water tank packaging solutions." },
+  { icon: Shield, title: "Food Packaging", desc: "Food-grade LDPE bags, bread packaging, milk packaging film, bakery film, and stand-up zipper pouches for food industries." },
+  { icon: ShoppingBag, title: "Accessories & Supplies", desc: "Box strapping, adhesive tapes, silica gel, iron clips, cable ties, and barcode labels for complete packaging needs." },
+  { icon: Truck, title: "Raw Materials & Compounds", desc: "LDPE granules, reprocessed granules, TPE/TPR compounding and granules for plastic manufacturing industries." },
 ];
 
 const SolutionsSection = () => {
