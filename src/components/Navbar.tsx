@@ -34,7 +34,7 @@ const Navbar = () => {
             <span className="flex items-center gap-1"><Phone className="w-3 h-3" /> +91 8950702695</span>
             <span className="flex items-center gap-1"><MapPin className="w-3 h-3" /> Panipat, Haryana</span>
           </div>
-          <span>Ductile Polymers Pvt. Ltd. — Industrial Packaging Manufacturer</span>
+          <span>High Land Overseas Pvt. Ltd. — Industrial Packaging Manufacturer</span>
         </div>
       </div>
 
