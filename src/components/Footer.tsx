@@ -17,8 +17,8 @@ const Footer = () => {
             </div>
           </div>
           {[
-            { title: "Products", links: ["LDPE Bags", "Stretch Film", "BOPP Bags", "Mailer Bags", "Recycled Polybags"] },
-            { title: "Solutions", links: ["Poly Bags & Mailers", "Films & Wraps", "Industrial Packaging", "Accessories"] },
+            { title: "Products", links: ["Stretch Film", "BOPP Bags", "Courier Bags", "Compostable Bags", "Garbage Bags"] },
+            { title: "Solutions", links: ["Bags & Mailers", "Films & Wraps", "Food Packaging", "Industrial", "Raw Materials"] },
             { title: "Company", links: ["About Us", "Contact", "Get Quote"] },
           ].map((col) => (
             <div key={col.title}>
