@@ -30,8 +30,8 @@ const ProductDetail = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>{product.name} — Ductile Polymers | Industrial Packaging Manufacturer Panipat</title>
-        <meta name="description" content={`${product.description} ${product.keywords.join(", ")}. Buy from Ductile Polymers Pvt. Ltd., Panipat, Haryana.`} />
+        <title>{product.name} — High Land Overseas | Industrial Packaging Manufacturer Panipat</title>
+        <meta name="description" content={`${product.description} ${product.keywords.join(", ")}. Buy from High Land Overseas Pvt. Ltd., Panipat, Haryana.`} />
         <meta name="keywords" content={product.keywords.join(", ")} />
       </Helmet>
 

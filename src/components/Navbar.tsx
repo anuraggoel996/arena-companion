@@ -42,7 +42,7 @@ const Navbar = () => {
         <div className="container flex items-center justify-between h-16">
           <Link to="/" className="flex items-center gap-2 font-display text-xl font-bold text-foreground">
             <Package className="w-7 h-7 text-primary" />
-            Ductile <span className="gradient-text">Polymers</span>
+            High Land <span className="gradient-text">Overseas</span>
           </Link>
 
           <div className="hidden md:flex items-center gap-8">
