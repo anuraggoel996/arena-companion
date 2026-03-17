@@ -2,7 +2,7 @@ import { ArrowRight, Factory, Award, Truck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const stats = [
-  { value: "15+", label: "Product Range" },
+  { value: "47+", label: "Product Range" },
   { value: "100%", label: "Customizable" },
   { value: "Pan India", label: "Delivery" },
 ];
