@@ -1,4 +1,4 @@
-import { Package, Menu, X, Search, Phone, MapPin } from "lucide-react";
+import { Leaf, Menu, X, Search, Phone, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
@@ -7,7 +7,7 @@ import { products } from "@/data/products";
 const navLinks = [
   { label: "Products", href: "/#products" },
   { label: "Solutions", href: "/#solutions" },
-  { label: "About", href: "/#about" },
+  { label: "Journey", href: "/#journey" },
   { label: "Contact", href: "/#contact" },
 ];
 
@@ -34,14 +34,14 @@ const Navbar = () => {
             <span className="flex items-center gap-1"><Phone className="w-3 h-3" /> +91 8950702695</span>
             <span className="flex items-center gap-1"><MapPin className="w-3 h-3" /> Panipat, Haryana</span>
           </div>
-          <span>High Land Overseas Pvt. Ltd. — Industrial Packaging Manufacturer</span>
+          <span>🌿 High Land Overseas Pvt. Ltd. — Eco-Friendly Packaging Manufacturer</span>
         </div>
       </div>
 
       <nav className="sticky top-0 z-50 border-b border-border/30 bg-background/95 backdrop-blur-lg">
         <div className="container flex items-center justify-between h-16">
           <Link to="/" className="flex items-center gap-2 font-display text-xl font-bold text-foreground">
-            <Package className="w-7 h-7 text-primary" />
+            <Leaf className="w-7 h-7 text-primary" />
             High Land <span className="gradient-text">Overseas</span>
           </Link>
 
@@ -58,8 +58,8 @@ const Navbar = () => {
               <Search className="w-5 h-5" />
             </button>
             <a href="tel:+918950702695">
-              <Button variant="hero" size="sm" className="hidden md:inline-flex">
-                Get Quote
+              <Button variant="hero" size="sm" className="hidden md:inline-flex gap-1">
+                <Leaf className="w-3.5 h-3.5" /> Get Quote
               </Button>
             </a>
             <button className="md:hidden text-foreground" onClick={() => setOpen(!open)}>
@@ -75,7 +75,7 @@ const Navbar = () => {
               <input
                 autoFocus
                 className="w-full bg-muted border border-border rounded-lg px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary"
-                placeholder="Search products... (e.g., Stretch Film, BOPP Bags, Mailer)"
+                placeholder="Search products... (e.g., Stretch Film, BOPP Bags, Compostable)"
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
               />
