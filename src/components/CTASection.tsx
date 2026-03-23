@@ -30,7 +30,7 @@ const CTASection = () => {
               <span className="text-sm font-semibold text-primary">Get in Touch</span>
             </div>
             <h2 className="font-display text-4xl font-bold text-foreground mb-6">Get a Custom Quote Today</h2>
-            <p className="text-muted-foreground mb-8">Contact High Land Overseas for competitive pricing on eco-friendly stretch films, poly bags, BOPP bags, and all packaging materials.</p>
+            <p className="text-muted-foreground mb-8">Contact HIGHLAND OVERSEAS for competitive pricing on eco-friendly stretch films, poly bags, BOPP bags, and all packaging materials.</p>
 
             <div className="space-y-4 mb-10">
               {benefits.map((b) => (
