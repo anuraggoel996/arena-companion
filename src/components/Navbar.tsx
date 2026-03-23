@@ -34,7 +34,7 @@ const Navbar = () => {
             <span className="flex items-center gap-1"><Phone className="w-3 h-3" /> +91 8950702695</span>
             <span className="flex items-center gap-1"><MapPin className="w-3 h-3" /> Panipat, Haryana</span>
           </div>
-          <span>🌿 High Land Overseas Pvt. Ltd. — Eco-Friendly Packaging Manufacturer</span>
+          <span>🌿 HIGHLAND OVERSEAS Pvt. Ltd. — Eco-Friendly Packaging Manufacturer</span>
         </div>
       </div>
 
