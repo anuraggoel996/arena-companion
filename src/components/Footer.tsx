@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <Link to="/" className="flex items-center gap-2 font-display text-lg font-bold text-foreground mb-3">
               <Leaf className="w-6 h-6 text-primary" />
-              High Land Overseas
+              HIGHLAND OVERSEAS
             </Link>
             <p className="text-sm text-muted-foreground mb-3">Eco-friendly industrial packaging manufacturer & exporter based in Panipat, Haryana. 🌿</p>
             <div className="space-y-1 text-sm text-muted-foreground">
