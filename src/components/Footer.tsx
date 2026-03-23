@@ -14,7 +14,7 @@ const Footer = () => {
             <p className="text-sm text-muted-foreground mb-3">Eco-friendly industrial packaging manufacturer & exporter based in Panipat, Haryana. 🌿</p>
             <div className="space-y-1 text-sm text-muted-foreground">
               <p className="flex items-center gap-1"><Phone className="w-3 h-3 text-primary" /> +91 8950702695</p>
-              <p className="flex items-center gap-1"><Mail className="w-3 h-3 text-primary" /> CAMUKULGOEL@GMAIL.COM</p>
+              <p className="flex items-center gap-1"><Mail className="w-3 h-3 text-primary" /> contact@highlandoverseas.in</p>
             </div>
           </div>
           {[
