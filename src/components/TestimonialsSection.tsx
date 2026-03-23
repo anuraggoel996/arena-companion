@@ -3,10 +3,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Star, Quote } from "lucide-react";
 
 const allTestimonials = [
-  { name: "Textile Manufacturer", location: "Panipat, Haryana", text: "High Land Overseas provides excellent quality BOPP bags and poly mailers. Their custom printing and prompt delivery make them our preferred packaging supplier." },
+  { name: "Textile Manufacturer", location: "Panipat, Haryana", text: "HIGHLAND OVERSEAS provides excellent quality BOPP bags and poly mailers. Their custom printing and prompt delivery make them our preferred packaging supplier." },
   { name: "E-commerce Business", location: "Delhi NCR", text: "We switched to their recycled polybags and mailer bags. The quality is outstanding, and the GRS certification gives our brand eco-friendly credibility." },
   { name: "Construction Company", location: "Haryana", text: "Their tarpaulin sheets and stretch films are top-notch. Reliable supply, competitive pricing, and excellent customer service." },
-  { name: "Food Processing Unit", location: "Punjab", text: "The food-grade LDPE films and packaging bags are of premium quality. We trust High Land Overseas for all our food packaging needs." },
+  { name: "Food Processing Unit", location: "Punjab", text: "The food-grade LDPE films and packaging bags are of premium quality. We trust HIGHLAND OVERSEAS for all our food packaging needs." },
   { name: "Agriculture Supplier", location: "Rajasthan", text: "Their agro films and leno bags are durable and affordable. We've been sourcing from them for years with consistent quality." },
   { name: "Courier Company", location: "Mumbai", text: "The tamper-evident courier bags are excellent. Strong adhesive, waterproof, and customizable — exactly what our logistics needs." },
   { name: "Furniture Retailer", location: "Gujarat", text: "Their furniture packaging films protect our products perfectly during transit. Great quality at competitive prices." },

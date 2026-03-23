@@ -30,7 +30,7 @@ const CTASection = () => {
               <span className="text-sm font-semibold text-primary">Get in Touch</span>
             </div>
             <h2 className="font-display text-4xl font-bold text-foreground mb-6">Get a Custom Quote Today</h2>
-            <p className="text-muted-foreground mb-8">Contact High Land Overseas for competitive pricing on eco-friendly stretch films, poly bags, BOPP bags, and all packaging materials.</p>
+            <p className="text-muted-foreground mb-8">Contact HIGHLAND OVERSEAS for competitive pricing on eco-friendly stretch films, poly bags, BOPP bags, and all packaging materials.</p>
 
             <div className="space-y-4 mb-10">
               {benefits.map((b) => (
@@ -44,8 +44,8 @@ const CTASection = () => {
             </div>
 
             <div className="space-y-3">
-              <a href="mailto:CAMUKULGOEL@GMAIL.COM" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors">
-                <Mail className="w-5 h-5 text-primary" /> CAMUKULGOEL@GMAIL.COM
+              <a href="mailto:contact@highlandoverseas.in" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors">
+                <Mail className="w-5 h-5 text-primary" /> contact@highlandoverseas.in
               </a>
               <a href="tel:+918950702695" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors">
                 <Phone className="w-5 h-5 text-primary" /> +91 8950702695

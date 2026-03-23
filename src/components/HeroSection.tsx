@@ -47,7 +47,7 @@ const HeroSection = () => {
           </h1>
 
           <p className="text-lg text-muted-foreground max-w-lg">
-            High Land Overseas Pvt. Ltd. — Leading manufacturer & exporter of eco-friendly stretch films, poly bags, BOPP bags, compostable bags, and industrial packaging materials in Panipat, Haryana.
+            HIGHLAND OVERSEAS Pvt. Ltd. — Leading manufacturer & exporter of eco-friendly stretch films, poly bags, BOPP bags, compostable bags, and industrial packaging materials in Panipat, Haryana.
           </p>
 
           <div className="flex flex-wrap gap-4">

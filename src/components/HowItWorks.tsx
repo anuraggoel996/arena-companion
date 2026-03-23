@@ -14,7 +14,7 @@ const HowItWorks = () => {
         <div className="text-center max-w-2xl mx-auto mb-16">
           <p className="text-sm font-semibold text-primary mb-3">🔄 Process</p>
           <h2 className="font-display text-4xl font-bold text-foreground mb-4">From Enquiry to Green Delivery</h2>
-          <p className="text-muted-foreground">Getting sustainable packaging from High Land Overseas is simple and efficient.</p>
+          <p className="text-muted-foreground">Getting sustainable packaging from HIGHLAND OVERSEAS is simple and efficient.</p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">

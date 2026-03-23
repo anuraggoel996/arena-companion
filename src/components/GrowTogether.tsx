@@ -29,7 +29,7 @@ const GrowTogether = () => {
             Grow <span className="gradient-text">Highland</span> Together
           </h2>
           <p className="text-lg text-muted-foreground">
-            At High Land Overseas, we believe packaging should protect both your products and our planet. 
+            At HIGHLAND OVERSEAS, we believe packaging should protect both your products and our planet. 
             Together, we're building a sustainable future — one package at a time.
           </p>
         </motion.div>

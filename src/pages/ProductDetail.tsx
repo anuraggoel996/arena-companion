@@ -30,8 +30,8 @@ const ProductDetail = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>{product.name} — High Land Overseas | Industrial Packaging Manufacturer Panipat</title>
-        <meta name="description" content={`${product.description} ${product.keywords.join(", ")}. Buy from High Land Overseas Pvt. Ltd., Panipat, Haryana.`} />
+        <title>{product.name} — HIGHLAND OVERSEAS | Industrial Packaging Manufacturer Panipat</title>
+        <meta name="description" content={`${product.description} ${product.keywords.join(", ")}. Buy from HIGHLAND OVERSEAS Pvt. Ltd., Panipat, Haryana.`} />
         <meta name="keywords" content={product.keywords.join(", ")} />
       </Helmet>
 
@@ -91,8 +91,8 @@ const ProductDetail = () => {
                 <a href="tel:+918950702695" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
                   <Phone className="w-4 h-4 text-primary" /> +91 8950702695
                 </a>
-                <a href="mailto:CAMUKULGOEL@GMAIL.COM" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
-                  <Mail className="w-4 h-4 text-primary" /> CAMUKULGOEL@GMAIL.COM
+                <a href="mailto:contact@highlandoverseas.in" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
+                  <Mail className="w-4 h-4 text-primary" /> contact@highlandoverseas.in
                 </a>
                 <div className="flex items-start gap-2 text-muted-foreground">
                   <MapPin className="w-4 h-4 text-primary mt-0.5 shrink-0" />
