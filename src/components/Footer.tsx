@@ -50,7 +50,7 @@ const Footer = () => {
         </div>
         <div className="border-t border-border/30 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
-            <p>© 2024 High Land Overseas Pvt. Ltd. All rights reserved. 🌱</p>
+            <p>© 2024 HIGHLAND OVERSEAS Pvt. Ltd. All rights reserved. 🌱</p>
             <div className="flex items-start gap-1">
               <MapPin className="w-3 h-3 text-primary mt-0.5 shrink-0" />
               <span>Plot no.1, Sector 29, Near Oxygen Plant, Opposite Satsang Bhawan Teachers Colony, Panipat, Haryana — 132103</span>

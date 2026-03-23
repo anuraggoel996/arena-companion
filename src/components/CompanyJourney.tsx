@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Leaf, Factory, Globe, Award, TrendingUp, Users } from "lucide-react";
 
 const milestones = [
-  { year: "2010", title: "Foundation", desc: "High Land Overseas established in Panipat, Haryana with a vision to deliver premium packaging solutions.", icon: Factory },
+  { year: "2010", title: "Foundation", desc: "HIGHLAND OVERSEAS established in Panipat, Haryana with a vision to deliver premium packaging solutions.", icon: Factory },
   { year: "2013", title: "Product Expansion", desc: "Expanded to 15+ product categories including stretch films, BOPP bags, and industrial packaging.", icon: TrendingUp },
   { year: "2016", title: "Eco Initiative", desc: "Launched compostable and recycled packaging lines, embracing sustainability as a core value.", icon: Leaf },
   { year: "2018", title: "GRS Certification", desc: "Achieved Global Recycled Standard (GRS) certification for sustainable manufacturing practices.", icon: Award },

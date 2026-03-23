@@ -31,8 +31,8 @@ const CategoryPage = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>{categoryName} — High Land Overseas | Industrial Packaging Manufacturer Panipat</title>
-        <meta name="description" content={`Browse ${categoryName} products from High Land Overseas Pvt. Ltd., Panipat. Premium quality packaging solutions.`} />
+        <title>{categoryName} — HIGHLAND OVERSEAS | Industrial Packaging Manufacturer Panipat</title>
+        <meta name="description" content={`Browse ${categoryName} products from HIGHLAND OVERSEAS Pvt. Ltd., Panipat. Premium quality packaging solutions.`} />
       </Helmet>
 
       <Navbar />
